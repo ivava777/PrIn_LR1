@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #adff50, #6dd5fa);
+    padding: 20px;
+    color: #000;
+}
+
+/* Style the logo */
+header img {
+    height: 80px;
+}
+
+/* Style the navigation menu */
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #35495e;
+}
+
+/* Style the main section */
+main {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+main button {
+    background-color: #fff;
+    color: #35495e;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main button:hover {
+    background-color: #35495e;
+    color: #fff;
+}
+
+/* Style for form */
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    opacity: 0.95;
+}
+
+input:hover {
+    opacity: 1;
+    border: 1px solid #4CAF50;
+}
+
+small {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the footer */
+footer {
+    background-color: #486b20;
+    color: #fff;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+    opacity: 0.9;
+}

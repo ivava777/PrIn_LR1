@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bike Lovers | Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website for bike lovers">
+    <meta name="keywords" content="bikes, cycling, bike lovers, enthusiasts">
+    <meta name="author" content="Your Name">
+    <title>Bike Lovers | About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="../assets/logo.png" alt="Bike Lovers logo" class="logo-image">
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+        <small>Enter a 10-digit phone number.</small>
+
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website">
+
+        <label for="meeting-time">Meeting Time:</label>
+        <input type="datetime-local" id="meeting-time" name="meeting-time">
+
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate">
+
+        <input type="submit" value="Submit">
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2023 Bike Lovers. All rights reserved.</p>
+</footer>
+</body>
+</html>
